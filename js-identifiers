@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+const identifiers = require("./index.js");
+const { parseScript } = require("shift-parser");
+
+const filePath = process.argv[2];
+
+const fileContents = require("fs").readFileSync(filePath, { encoding: "utf8" });
+
+const ast = parseScript(fileContents);
+
+const ids = identifiers(ast);
+
+console.log(ids.join("\n"));

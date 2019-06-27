@@ -1,0 +1,31 @@
+{
+  "name": "js-identifiers",
+  "version": "0.0.1",
+  "description": "Script that prints out the declared variables in a JavaScript file",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "git@github.com:jsoverson/js-identifiers.git"
+  },
+  "files": [
+    "index.js",
+    "js-identifiers"
+  ],
+  "bin" : "js-identifiers",
+  "keywords": [
+    "identifiers",
+    "variables",
+    "parse",
+    "find",
+    "print"
+  ],
+  "author": "Jarrod Overson",
+  "license": "ISC",
+  "dependencies": {
+    "shift-parser": "^7.0.0",
+    "shift-traverser": "^1.0.0"
+  }
+}
