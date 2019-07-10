@@ -7,14 +7,14 @@
     "test": "node test/index.js"
   },
   "repository": {
-    "type" : "git",
-    "url" : "git@github.com:jsoverson/js-identifiers.git"
+    "type": "git",
+    "url": "git@github.com:jsoverson/js-identifiers.git"
   },
   "files": [
     "index.js",
     "js-identifiers"
   ],
-  "bin" : "js-identifiers",
+  "bin": "js-identifiers",
   "keywords": [
     "identifiers",
     "variables",
