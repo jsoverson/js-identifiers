@@ -1,6 +1,6 @@
 {
   "name": "js-identifiers",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Script that prints out the declared variables in a JavaScript file",
   "main": "index.js",
   "scripts": {
